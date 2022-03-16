@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <title>Category Filter</title>
+</head>
+<body class="w-full">
+    <div class="container flex flex-col justify-center text-center mx-auto my-[3rem]">
+        <h2 class="text-[2.3rem] text-[#F4459A]">Filterable Gallery</h2>
+        <div class="menu flex flex-wrap justify-center lg:justify-center gap-4 my-[1.5rem]">
+            <a href="#" class="btn text-[1.1rem] mx-[1.5rem] bg-[#753CF8] text-[#fff] px-[22px] py-[8px]" data-filter="all">
+                All
+            </a>
+            <a href="#" class="btn text-[1.1rem] mx-[1.5rem] bg-[#753CF8] text-[#fff] px-[22px] py-[8px]" data-filter="logo">
+                Logo Design
+            </a>
+            <a href="#" class="btn text-[1.1rem] mx-[1.5rem] bg-[#753CF8] text-[#fff] px-[22px] py-[8px]" data-filter="web">
+                Web Development
+            </a>
+            <a href="#" class="btn text-[1.1rem] mx-[1.5rem] bg-[#753CF8] text-[#fff] px-[22px] py-[8px]" data-filter="mobile">
+                Mobile App
+            </a>
+        </div>
+        <div id="store-items" class="image-box lg:w-[95%] lg:mx-auto lg:grid lg:grid-cols-4 lg:justify-center lg:items-center">
+            <div class="store-item logo lg:w-[300px] p-[1rem]">
+                <img src="images/logo1.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item web lg:w-[300px] p-[1rem]">
+                <img src="images/web1.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/mobile1.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item logo lg:w-[300px] p-[1rem]">
+                <img src="images/logo2.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item web lg:w-[300px] p-[1rem]">
+                <img src="images/web2.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/mobile2.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item logo lg:w-[300px] p-[1rem]">
+                <img src="images/logo3.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item web lg:w-[300px] p-[1rem]">
+                <img src="images/web3.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/mobile3.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item logo lg:w-[300px] p-[1rem]">
+                <img src="images/logo4.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item web lg:w-[300px] p-[1rem]">
+                <img src="images/web4.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/mobile4.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item logo lg:w-[300px] p-[1rem]">
+                <img src="images/logo5.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item web lg:w-[300px] p-[1rem]">
+                <img src="images/web5.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/mobile5.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item logo lg:w-[300px] p-[1rem]">
+                <img src="images/logo6.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item web lg:w-[300px] p-[1rem]">
+                <img src="images/web6.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/web7.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/web8.jpg" class="img-store w-full">
+            </div>
+            <div class="store-item mobile lg:w-[300px] p-[1rem]">
+                <img src="images/web9.jpg" class="img-store w-full">
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
